@@ -21,7 +21,8 @@ elif x == "0":
     chocolate = chocolate + y
 else:
     print("error, forcefully crashing script")
-    chocolate = 0
+    print(end)
+    
 age = input("What was the year you were born?:")
 print(str(chocolate) + " - " +str(age))
 chocolate = chocolate - int(age)
